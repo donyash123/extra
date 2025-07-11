@@ -1,0 +1,961 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.first-top {
+    width: 100%;
+    height: 50px;
+    background: rgb(175, 1, 1);
+    background-image: url("images/images-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: rgb(175, 1, 1);
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    align-content: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+}
+
+.first-text {
+    position: absolute;
+    width:70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.first-text h1 {
+    color: rgb(233, 12, 12);
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.first-text p {
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+.first-text label:nth-child(5) {
+    color: red;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.first-text label:nth-child(2) {
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.digit {
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #ff0000;
+    border-radius: 50%;
+    margin: 0 5px;
+    outline: none;
+}
+
+.digit:focus {
+    border-color: #0056b3;
+}
+
+footer>a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+   
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a.disabled {
+   
+    pointer-events: none;
+    color: #b6b2b2;
+}
+
+
+
+
+/*----------------------
+                second page
+                                -------------------*/
+a {
+    color: black;
+}
+
+.second-top {
+    width: 100%;
+    height: 50px;
+    background: rgb(175, 1, 1);
+    color: white;
+    align-content: center;
+}
+
+.second-top a {
+    color: white;
+}
+
+.second-top i {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.second-top span {
+    font-weight: 800;
+    margin-left: 15px;
+}
+
+.second-text {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 15px;
+}
+
+.second-text :nth-child(4) {
+    margin-top: 20px;
+}
+
+
+.second-text2-inner {
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px 15px;
+    background: rgb(247, 244, 244);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(216, 210, 210);
+}
+
+.second-text2-inner hr {
+    width: 90%;
+    border: 1px solid rgb(216, 198, 198);
+    margin: 8px auto;
+}
+
+.second-text2-inner p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.second-text2-inner :nth-child(5) {
+    text-align: right;
+}
+
+.second-end {
+    background: rgb(224, 12, 12);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    align-content: center;
+
+}
+
+.second-end i {
+    color: white;
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+.third-button {
+    background: rgb(216, 16, 16);
+    padding: 10px 20px;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+
+/*          ------------------
+                                 ten page                       -
+                                                        ---------------*/
+
+
+
+
+.footer-icon-ten {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-bottom: 6px;
+    margin-left: 105px;
+    margin-right: 105px;
+}
+
+.ten-inner {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.ten-inner-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.ten-inner-3 {
+    text-align: right;
+}
+
+hr {
+    color: rgb(207, 199, 199);
+    background: pink;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.first-top {
+    width: 100%;
+    height: 50px;
+    background: rgb(175, 1, 1);
+    background-image: url("images/images-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: rgb(175, 1, 1);
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    align-content: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+}
+
+.first-text {
+    position: absolute;
+    width:70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.first-text h1 {
+    color: rgb(233, 12, 12);
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.first-text p {
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+.first-text label:nth-child(5) {
+    color: red;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.first-text label:nth-child(2) {
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.digit {
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #ff0000;
+    border-radius: 50%;
+    margin: 0 5px;
+    outline: none;
+}
+
+.digit:focus {
+    border-color: #0056b3;
+}
+
+footer>a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+   
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a.disabled {
+   
+    pointer-events: none;
+    color: #b6b2b2;
+}
+
+
+
+
+/*----------------------
+                second page
+                                -------------------*/
+a {
+    color: black;
+}
+
+.second-top {
+    width: 100%;
+    height: 50px;
+    background: rgb(175, 1, 1);
+    color: white;
+    align-content: center;
+}
+
+.second-top a {
+    color: white;
+}
+
+.second-top i {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.second-top span {
+    font-weight: 800;
+    margin-left: 15px;
+}
+
+.second-text {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 15px;
+}
+
+.second-text :nth-child(4) {
+    margin-top: 20px;
+}
+
+
+.second-text2-inner {
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px 15px;
+    background: rgb(247, 244, 244);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(216, 210, 210);
+}
+
+.second-text2-inner hr {
+    width: 90%;
+    border: 1px solid rgb(216, 198, 198);
+    margin: 8px auto;
+}
+
+.second-text2-inner p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.second-text2-inner :nth-child(5) {
+    text-align: right;
+}
+
+.second-end {
+    background: rgb(224, 12, 12);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    align-content: center;
+
+}
+
+.second-end i {
+    color: white;
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+.third-button {
+    background: rgb(216, 16, 16);
+    padding: 10px 20px;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+
+/*          ------------------
+                                 ten page                       -
+                                                        ---------------*/
+
+
+
+
+.footer-icon-ten {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-bottom: 6px;
+    margin-left: 105px;
+    margin-right: 105px;
+}
+
+.ten-inner {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.ten-inner-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.ten-inner-3 {
+    text-align: right;
+}
+
+hr {
+    color: rgb(207, 199, 199);
+    background: pink;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.first-top {
+    width: 100%;
+    height: 50px;
+    background: rgb(175, 1, 1);
+    background-image: url("images/images-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: rgb(175, 1, 1);
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    align-content: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+}
+
+.first-text {
+    position: absolute;
+    width:70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.first-text h1 {
+    color: rgb(233, 12, 12);
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.first-text p {
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+.first-text label:nth-child(5) {
+    color: red;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.first-text label:nth-child(2) {
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.digit {
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #ff0000;
+    border-radius: 50%;
+    margin: 0 5px;
+    outline: none;
+}
+
+.digit:focus {
+    border-color: #0056b3;
+}
+
+footer>a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+   
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a.disabled {
+   
+    pointer-events: none;
+    color: #b6b2b2;
+}
+
+
+
+
+/*----------------------
+                second page
+                                -------------------*/
+a {
+    color: black;
+}
+
+.second-top {
+    width: 100%;
+    height: 50px;
+    background: rgb(175, 1, 1);
+    color: white;
+    align-content: center;
+}
+
+.second-top a {
+    color: white;
+}
+
+.second-top i {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.second-top span {
+    font-weight: 800;
+    margin-left: 15px;
+}
+
+.second-text {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 15px;
+}
+
+.second-text :nth-child(4) {
+    margin-top: 20px;
+}
+
+
+.second-text2-inner {
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px 15px;
+    background: rgb(247, 244, 244);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(216, 210, 210);
+}
+
+.second-text2-inner hr {
+    width: 90%;
+    border: 1px solid rgb(216, 198, 198);
+    margin: 8px auto;
+}
+
+.second-text2-inner p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.second-text2-inner :nth-child(5) {
+    text-align: right;
+}
+
+.second-end {
+    background: rgb(224, 12, 12);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    align-content: center;
+
+}
+
+.second-end i {
+    color: white;
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+.third-button {
+    background: rgb(216, 16, 16);
+    padding: 10px 20px;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+
+/*          ------------------
+                                 ten page                       -
+                                                        ---------------*/
+
+
+
+
+.footer-icon-ten {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-bottom: 6px;
+    margin-left: 105px;
+    margin-right: 105px;
+}
+
+.ten-inner {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.ten-inner-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.ten-inner-3 {
+    text-align: right;
+}
+
+hr {
+    color: rgb(207, 199, 199);
+    background: pink;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.first-top {
+    width: 100%;
+    height: 50px;
+    background: rgb(175, 1, 1);
+    background-image: url("images/images-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: rgb(175, 1, 1);
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    align-content: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+}
+
+.first-text {
+    position: absolute;
+    width:70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.first-text h1 {
+    color: rgb(233, 12, 12);
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.first-text p {
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+.first-text label:nth-child(5) {
+    color: red;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.first-text label:nth-child(2) {
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.digit {
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #ff0000;
+    border-radius: 50%;
+    margin: 0 5px;
+    outline: none;
+}
+
+.digit:focus {
+    border-color: #0056b3;
+}
+
+footer>a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+   
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a.disabled {
+   
+    pointer-events: none;
+    color: #b6b2b2;
+}
+
+
+
+
+/*----------------------
+                second page
+                                -------------------*/
+a {
+    color: black;
+}
+
+.second-top {
+    width: 100%;
+    height: 50px;
+    background: rgb(175, 1, 1);
+    color: white;
+    align-content: center;
+}
+
+.second-top a {
+    color: white;
+}
+
+.second-top i {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.second-top span {
+    font-weight: 800;
+    margin-left: 15px;
+}
+
+.second-text {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 15px;
+}
+
+.second-text :nth-child(4) {
+    margin-top: 20px;
+}
+
+
+.second-text2-inner {
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px 15px;
+    background: rgb(247, 244, 244);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(216, 210, 210);
+}
+
+.second-text2-inner hr {
+    width: 90%;
+    border: 1px solid rgb(216, 198, 198);
+    margin: 8px auto;
+}
+
+.second-text2-inner p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.second-text2-inner :nth-child(5) {
+    text-align: right;
+}
+
+.second-end {
+    background: rgb(224, 12, 12);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    align-content: center;
+
+}
+
+.second-end i {
+    color: white;
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+.third-button {
+    background: rgb(216, 16, 16);
+    padding: 10px 20px;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+
+/*          ------------------
+                                 ten page                       -
+                                                        ---------------*/
+
+
+
+
+.footer-icon-ten {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-bottom: 6px;
+    margin-left: 105px;
+    margin-right: 105px;
+}
+
+.ten-inner {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.ten-inner-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.ten-inner-3 {
+    text-align: right;
+}
+
+hr {
+    color: rgb(207, 199, 199);
+    background: pink;
+}

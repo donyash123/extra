@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <section class="second-top">
+           <a href="second.html"><i class="fa-solid fa-reply"></i></a> 
+            <span>Accounts</span>
+        </section>
+        <section class="second-text">
+            <h1>Account No:</h1>
+            <h1 style="color: green;">4171XXXXXX1302</h1>
+        </section>
+        <section class="second-text2">
+           
+            <div class="second-text2-inner">
+                <h3 style="text-align: center; font-weight: 00; font-size: 15px;">Last 10 transactions</h3>
+                <hr>
+             <a href="four1.html" class="third-button">Mini Satement</a>
+            </div>
+
+        
+            <div class="second-text2-inner">
+                <h3 style="text-align: center; font-weight: 00; font-size: 15px;">Last 10 transactions</h3>
+                <hr>
+                <label for="">From: </label>
+                <input type="date" style="padding: 5px; border: none; box-shadow: 0 0 8px grey; border-radius: 5px;"><br>
+                <label for="" style="margin-top: 20px; margin-left: 20px; display: inline-block;">To: </label>
+                <input type="date" style="padding: 5px; border: none; box-shadow: 0 0 8px grey; border-radius: 5px; margin-bottom: 20px;">
+                <p style="margin-bottom: 20px; font-weight: lighter; font-size: 12px;">
+                    *Maximum period should be 90 days
+                </p>
+             <a href="four2.html" class="third-button">Detailed Satement</a>
+            </div>
+        
+        </section>
+
+
+        <section class="second-end"><i class="fa-solid fa-download"></i></section>
+
+        <script src="https://kit.fontawesome.com/6687242271.js" crossorigin="anonymous"></script>
+        <script>
+            // Get current date and time
+            var now = new Date();
+            var datetime = now.toLocaleString();
+          
+            // Insert date and time into HTML
+            document.getElementById("datetime").innerHTML = datetime;
+          </script>
+    </body>
+</html>

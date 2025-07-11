@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <section class="second-top">
+           <a href="index.html"><i class="fa-solid fa-bars"></i></a> 
+            <span>Accounts</span>
+        </section>
+        <section class="second-text">
+            <p>Welcome: REKHA ROHILLA</p>
+            <p>Last login on : <span id="datetime" style="color: red;"></span> </p>
+            <p>You can view the transaction of below accounts</p>
+            <p><i class="fa-solid fa-arrows-rotate" style="color: red;"></i> Refresh Account List</p>
+        </section>
+        <section class="second-text2">
+           <a href="third.html">
+            <div class="second-text2-inner">
+                <h2>Current</h2>
+                <hr>
+                <p>Account No: <span style="color: green;">1513XXXXXX6052</span> </p>
+                <p>Name: <span style="color: green;">REKHA ROHILLA</span></p>
+
+                <p>Balance: <span style="color: green;">33,220.95</span></p>
+            </div>
+
+           </a> 
+           <a href="four.html">
+            <div class="second-text2-inner">
+                <h2>Current</h2>
+                <hr>
+                <p>Account No: <span style="color: green;">4171XXXXXX1302</span> </p>
+                <p>Name: <span style="color: green;">REKHA ROHILLA</span></p>
+
+                <p>Balance: <span style="color: green;">8,934.31</span></p>
+            </div>
+           </a> 
+        </section>
+
+
+        <section class="second-end"><i class="fa-solid fa-download"></i></section>
+
+        <script src="https://kit.fontawesome.com/6687242271.js" crossorigin="anonymous"></script>
+        <script>
+            // Get current date and time
+            var now = new Date();
+            var datetime = now.toLocaleString();
+          
+            // Insert date and time into HTML
+            document.getElementById("datetime").innerHTML = datetime;
+          </script>
+    </body>
+</html>
